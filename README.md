@@ -1,4 +1,4 @@
-# Private Key Validator
+# openssl-ssh-key-validator
 
 Validate SSL/TLS private keys (RSA, EC, DSA) in PEM format with detailed error reporting.
 
@@ -17,15 +17,15 @@ Validate SSL/TLS private keys (RSA, EC, DSA) in PEM format with detailed error r
 ## Installation
 
 ```bash
-npm add private-key-validator
+npm add openssl-ssh-key-validator
 # or
-yarn add private-key-validator
+yarn add openssl-ssh-key-validator
 ```
 
 ## Usage
 
 ```typescript
-import { validatePrivateKey } from "private-key-validator";
+import { validatePrivateKey } from "openssl-ssh-key-validator";
 
 const pem = `-----BEGIN RSA PRIVATE KEY-----
 MIIBOgIBAAJBALe3UMkTqyLZCNLoiOdVX0k+/9VFpLcdlHk...
