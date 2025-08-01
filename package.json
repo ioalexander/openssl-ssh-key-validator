@@ -1,6 +1,6 @@
 {
   "name": "openssl-ssh-key-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to validate and verify private and public OpenSSL SSH Keys",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
