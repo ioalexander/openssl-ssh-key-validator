@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "ioalexander",
+  "repository": "https://github.com/ioalexander/openssl-ssh-key-validator",
   "keywords": [
     "private-key",
     "validation",
